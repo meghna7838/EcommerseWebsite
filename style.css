@@ -31,7 +31,7 @@ body {
     text-align: center;
     transition: transform 0.3s ease;
     border: 1px solid #ccc;
-    margin : 20px;
+    margin-bottom: 20px;
 
     background-color: white;
     width: 300px;
@@ -73,6 +73,7 @@ body {
     background-color: #4f4e4e;
   }
   .img_con{
+    
     display: flex;
     flex-direction: row;
     /* padding: 10px; */
