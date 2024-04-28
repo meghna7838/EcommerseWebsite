@@ -14,7 +14,7 @@ async function getproduct(){
     prod = await fetch('https://dummyjson.com/products');
     prod = await prod.json();
     prod = prod.products;
-}e3
+}
 getproduct();
 function addToCart(id){
     const foundIndex = cartItems.findIndex(obj => obj.id === id);
